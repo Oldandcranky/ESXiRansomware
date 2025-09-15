@@ -1,6 +1,6 @@
 # ESXiRansomware Demo
 
-A safe, educational demonstration script that simulates ransomware behavior on VMware Photon OS and other minimal Linux environments.  
+A safe, educational demonstration script that simulates ransomware behavior on VMware ESXi and other Linux environments.  
 
 The script generates random, human-readable test files, encrypts them with AES-256-CBC, deletes the originals, and (in real runs) drops a ransom note. By default, it runs in **dry-run mode** to preview actions without making changes.
 
@@ -59,8 +59,3 @@ Adjustable at the top of `script.sh`:
 This project is for **educational and demonstration purposes only**.
 It is not malicious ransomware. It does not exfiltrate data or attempt persistence.
 Use only in controlled environments where you have permission.
-
-```
-
-Do you also want me to add an **Example Real Run Output** block (showing what the script prints when actually dropping the ransom note), or keep the README lean with just the dry-run example?
-```
